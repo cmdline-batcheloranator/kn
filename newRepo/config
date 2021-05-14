@@ -1,0 +1,8 @@
+host batchelorantor
+   identityFile ~/.ssh/batchelorantor
+	
+host *
+    user  git
+    hostName  github.com
+    preferredAuthentications publickey 
+

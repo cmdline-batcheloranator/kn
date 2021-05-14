@@ -1,0 +1,12 @@
+create ~/.ssh/config
+ssh-keygen -f ~/.ssh/<keyname> -t rsa -q -N ''
+ssh-add <privateKey>
+
+add github pubkey
+create github repo
+
+git init
+git remote add origin git@<sshConfigHost>:<user>:repo.git
+git add . 
+git commit -m 'f'
+git  push -u origin master
