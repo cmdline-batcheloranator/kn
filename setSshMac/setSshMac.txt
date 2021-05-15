@@ -1,0 +1,11 @@
+Grant terminal full disk access:
+system > security & privacy > full disk access
+add terminal
+
+sudo systemsetup remotelogin on
+
+set config like in example
+
+cat ~/.ssh/id_rsa.pub > authorized_keys
+
+ssh local 
