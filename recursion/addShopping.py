@@ -4,7 +4,6 @@ x = {
     'r': d.Decimal('3.2'),
     'q': d.Decimal('5.4'),
     'z': d.Decimal('61.5')
-   
    }
 
 y = list(x.values())
