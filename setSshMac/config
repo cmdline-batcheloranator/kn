@@ -1,7 +1,7 @@
 host local
    user apple
    hostname localhost
-   identityFile ~/.ssh/id_rsa
+   identityFile ~/.ssh/local
 
 host batchelorantor
    identityFile ~/.ssh/batchelorantor
