@@ -1,5 +1,5 @@
 host local
-   user apple
+   user <user>
    hostname localhost
    identityFile ~/.ssh/local
 
