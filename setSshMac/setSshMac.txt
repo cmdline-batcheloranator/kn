@@ -4,8 +4,10 @@ add terminal
 
 sudo systemsetup remotelogin on
 
+ssh-keygen -f ~/.ssh/local -t rsa -q -N ''
+
 set config like in example
 
-cat ~/.ssh/id_rsa.pub > authorized_keys
+cat ~/.ssh/local.pub > authorized_keys
 
-ssh local 
+ssh <user>@local 
