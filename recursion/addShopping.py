@@ -13,4 +13,4 @@ def add(y):
         return 0
     return y[0] + add(y[1:])
 
-print(f"{'Total:'} {'£'}{round(add(y), 3)}")
+print(f"Total: £{round(add(y), 3)}")
