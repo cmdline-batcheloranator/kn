@@ -1,4 +1,4 @@
-# Mac shutdow cmds
+# Mac shutdown cmds
 
 ### Sleep
 
