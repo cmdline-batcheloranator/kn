@@ -38,4 +38,6 @@ editing `~/.ssh/config` to have the following options:
 `AddKeysToAgent yes`
 
 ### Remember
-You have to do `ssh-add <privateKey>` after each reboot doesn't seeem to be an issue ubuntu, centos or fedora
+
+- You have to do `ssh-add <privateKey>` after each reboot
+- This doesn't seeem to be an issue ubuntu, centos or fedora
