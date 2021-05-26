@@ -1,16 +1,16 @@
 # install .dmg files
 
-## Attach .dmg
+### Attach .dmg
 
 `sudo hdiutil attach <image>.dmg`
 
-## Copy files 
-mv /Volumes/<image>/<image>.app ~/Applications
+### Copy files 
+`mv /Volumes/<image>/<image>.app ~/Applications`
 
-## Detach .dmg
+### Detach .dmg
 
 `sudo hdiutil detach /Volumes/<image>`
 
-## Open app
+### Open app
 
 `open -a <app>.app`
