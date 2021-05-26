@@ -16,4 +16,4 @@
 ## Set config like in example
 
 - `cat ~/.ssh/local.pub > authorized_keys`
-- `ssh <user>@local `
+- `ssh <hostSpecifiedInSshConfig('local' in my example config)>`
