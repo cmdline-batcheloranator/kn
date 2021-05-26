@@ -1,15 +1,15 @@
 # Setting up a new repo with ssh config
 
-## Create ~/.ssh keys and ~/.ssh/config
+## Create `~/.ssh` keys and `~/.ssh/config` 
 
 - `ssh-keygen -f ~/.ssh/<keyname> -t rsa -q -N ''`
-- `ssh-add <privateKey>` (you will have to do this on eeach reboot)
+- `ssh-add <privateKey>` (you will have to do this oneach reboot)
 -  Create ssh config like in example
 
 ## Add github pubkey
 
 - Settings > SSH and GPG Keys > New SSH key
-- Paste <pubkey>
+- Paste `<pubkey>`
 
 ## Create github repo
 
