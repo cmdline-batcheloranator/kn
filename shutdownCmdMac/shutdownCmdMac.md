@@ -1,17 +1,17 @@
 # Mac shutdow cmds
 
-## Sleep
+### Sleep
 
 `shutdown -s +0`
 
-## Restart
+### Restart
 
 `sudo shutdown -r +0`
 
-## Shutdown 
+### Shutdown 
 
 `sudo shutdown -h +0`
 
-### Notes 
+#### Notes 
 
 `+0` is faster than `now`
