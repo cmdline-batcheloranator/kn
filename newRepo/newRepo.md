@@ -30,10 +30,12 @@ On macos you have to do `ssh-add <privateKey>` after each reboot
 
 There are many 'solutions' which don't work such as:
 
-`ssh-add -K <pirvateKey>` then
+`ssh-add -K <privateKey>` then
 editing `~/.ssh/config` to have the following options: 
 
 `UseKeychain yes`
+
 `AddKeysToAgent yes`
 
-So you have to do `ssh-add <privateKey>` after each reboot doesn't seeem to be an issue ubuntu, centos or fedora
+### Remember
+You have to do `ssh-add <privateKey>` after each reboot doesn't seeem to be an issue ubuntu, centos or fedora
