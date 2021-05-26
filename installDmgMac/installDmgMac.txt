@@ -1,4 +1,0 @@
-sudo hdiutil attach <image>.dmg
-mv /Volumes/<image>/<image>.app ~/Applications
-sudo hdiutil detach /Volumes/<image>
-open -a <app>.app
