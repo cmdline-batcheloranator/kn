@@ -5,6 +5,6 @@ def iterate(lst, l = len(lst)):
     if i < 0:
         return 0
     print(lst[i])
-    iterate(lst, i)
+    return iterate(lst, i)
 
 iterate(lst)
