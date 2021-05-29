@@ -1,4 +1,4 @@
-# Change password for sudo
+# Change password when sudo cmd
 
 - sudo passwd
 - enter new password
