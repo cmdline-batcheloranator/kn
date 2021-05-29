@@ -5,6 +5,6 @@
 
 # Change password for login
 
-- while logged in as the user to change the loging password for
+- while logged in as the user to change the login password for
 - security set-keychain-password 
 - enter password
