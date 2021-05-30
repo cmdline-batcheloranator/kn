@@ -1,6 +1,6 @@
 ## In macos `~/.bashrc` is not automatically sourced
 
-- vi `/etc/bashrc`:
+- sudo vi `/etc/bashrc`:
 
 `[ -f ~/.bashrc] && . ~/.bashrc`
 
