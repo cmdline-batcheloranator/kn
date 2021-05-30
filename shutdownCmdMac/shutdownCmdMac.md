@@ -14,4 +14,6 @@
 
 #### Notes 
 
-`+0` is faster than `now`
+- `+0` is faster than `now`
+- sleep cmd can also be used as a way to lock computer
+- make aliases in `~/.bash_profile` like `alias sd='shutdown -h +0'`
