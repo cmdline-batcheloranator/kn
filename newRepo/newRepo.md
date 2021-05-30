@@ -3,7 +3,7 @@
 ## Create `~/.ssh` keys and `~/.ssh/config` 
 
 - `ssh-keygen -f ~/.ssh/<keyname> -t rsa -q -N ''`
-- `ssh-add <privateKey>` (you will have to do this oneach reboot)
+- `ssh-add <privateKey>` (you will have to do this one each reboot)
 -  Create ssh config like in example
 
 ## Add github pubkey
