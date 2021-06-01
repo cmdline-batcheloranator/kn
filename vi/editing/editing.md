@@ -14,7 +14,7 @@
 
 ## Visual line
  
-- cut line or multiple lines: `shift+v` then `r` (hit down or up for multi line) `p` or `P` then `esc`  
+- cut paste line or multiple lines: `shift+v` then `r` (hit down or up for multi line) `p` or `P` then `esc`  
 - copy line or multiple lines: `shift+v` then `y` (hit down or up for multi line) `p` or `P` then `esc`  
 
 
