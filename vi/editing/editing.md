@@ -41,8 +41,8 @@
 
 ### While in vi, vertical split
 
-`:vsp`
-`:e <selectFile>`
+- `:vsp`
+- `:e <selectFile>`
 
 ### While in vi, horizontal split
 
