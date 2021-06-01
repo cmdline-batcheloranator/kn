@@ -42,7 +42,7 @@
 ### While in vi, vertical split
 
 - `:vsp`
-- `:e < pathTofile/file>`
+- `:e <pathTofile/file>`
 
 ### While in vi, horizontal split
 
