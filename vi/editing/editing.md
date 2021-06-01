@@ -1,48 +1,51 @@
 # editing in vi 
 
-- insert mode:
-`i`
+- insert mode: `i`
+- replace mode: `shift+r`
+- back to normal mode: `esc`
 
-- replace mode:
-`r`
+## Normal mode
 
-- back to normal mode:
-`esc`
+- paste below: `p` 
+- paste above: `P`
+- delete character: `x`
+- delete line (cut if single line): `dd`
 
-- normal mode delete character:
 
-`x`
-
-- normal mode delete line:
-
-`dd`
-
-- paste below:
-
-`p` 
-
-- paste above:
-
-`P`
-
-- normal mode, cut (if single line):
-
-`dd`
-
-- copy line or multiple lines: 
-
-`shift+v` then `y` (hit down or up for multi line) `p` or `P` then `esc`  
-
-- cut line or multiple lines: 
-
-`shift+v` then `r` (hit down or up for multi line) `p` or `P` `esc`  
-
-- copy 1st character: 
-
-`ctrl+v` then `y`
-
-- edit before start of multiple lines: 
-
-`ctrl+v` then `shift+i` then `<make edit> (example 4 spaces)` then `esc`
-
+## Visual line
  
+- cut line or multiple lines: `shift+v` then `r` (hit down or up for multi line) `p` or `P` `esc`  
+- copy line or multiple lines: `shift+v` then `y` (hit down or up for multi line) `p` or `P` then `esc`  
+
+
+## Visual block
+
+- copy 1st character: `ctrl+v` (hit up/down if multiple) then `y`
+- edit before start of multiple lines: `ctrl+v` then `shift+i` then `<make edit> (example 4 spaces)` then `esc`
+
+
+## While in vi, edit other file
+
+- `:e <pathToFile/file>`
+
+
+## Edit Multiple files
+
+### vertical split
+
+- `vi -O file1 file2 file...`
+
+### For horizontal split
+
+- `vi -o file1 file2 file...`
+
+### While in vi, vertical split
+
+`:vsp`
+`:e <selectFile>`
+
+### While in vi, horizontal split
+
+- `:sp`
+- `:e <selectFile>`
+
