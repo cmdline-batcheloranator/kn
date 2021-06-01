@@ -20,7 +20,7 @@
 
 ## Visual block
 
-- copy 1st character: `ctrl+v` (hit up/down if multiple) then `y`
+- highlight 1st or more characters: `ctrl+v` (hit up/down if multiple or right) `y` or `x` (etc)
 - edit before start of multiple lines: `ctrl+v` then `shift+i` then `<make edit> (example 4 spaces)` then `esc`
 
 
@@ -42,10 +42,10 @@
 ### While in vi, vertical split
 
 - `:vsp`
-- `:e <selectFile>`
+- `:e < pathTofile/file>`
 
 ### While in vi, horizontal split
 
 - `:sp`
-- `:e <selectFile>`
+- `:e <pathTofile/file>`
 
