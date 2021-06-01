@@ -1,4 +1,4 @@
-# editing in vi 
+## Editing in vi 
 
 - insert mode: `i`
 - replace mode: `shift+r`
