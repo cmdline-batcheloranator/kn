@@ -9,9 +9,9 @@
 
 # Add user to groups
 
-- sudo dseditgroup -o edit -a <user> -L wheel
-- sudo dseditgroup -o edit -a <user> -L admin
-- sudo dseditgroup -o edit -a <user> -L <group>
+- `sudo dseditgroup -o edit -a <user> -L wheel`
+- `sudo dseditgroup -o edit -a <user> -L admin`
+- `sudo dseditgroup -o edit -a <user> -L <group>`
 
 ## Notes
 
