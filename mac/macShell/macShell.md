@@ -18,6 +18,7 @@ add updated bash:
 ## Change shell
 
 - `chsh -s /usr/local/bin/bash`
+- `. /etc/shells`
 
 verify: 
 
