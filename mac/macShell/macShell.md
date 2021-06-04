@@ -3,11 +3,11 @@
 - uses zsh or bash 3 
 - both are shit 
 
-## install updated bash
+## Install updated bash
 
 - `brew install bash`
 
-### Edit `/etc/shells`
+## Edit /etc/shells
 
 - sudo vi `/etc/shells`
 
@@ -23,6 +23,3 @@ add updated bash:
 verify: 
 
 - `echo $SHELL`
-
-
-
