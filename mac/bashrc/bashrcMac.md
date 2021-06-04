@@ -1,4 +1,4 @@
-## In macos `~/.bashrc` is not automatically sourced
+## In macos ~/.bashrc is not automatically sourced
 
 - sudo vi `/etc/bashrc`:
 
