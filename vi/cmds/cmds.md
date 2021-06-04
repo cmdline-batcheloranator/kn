@@ -1,7 +1,4 @@
 # Running cmds in vi 
 
-- run cmd: `:! <ls>`
+- run cmd: `:! <cmd>`
 - look at terminal: `:!`
-- edit another file: `:e <filePath/file>`
-
-
