@@ -14,14 +14,24 @@
 
 ## Visual line
  
-- cut paste line or multiple lines: `shift+v` (hit down or up for multi line) then `x` then `p` or `P` then `esc`  
-- copy line or multiple lines: `shift+v` (hit down or up for multi line) then `y` then `p` or `P` then `esc`  
+- cut paste line or multiple lines: 
+
+`shift+v` (hit down or up for multi line) then `x` then `p` or `P` then `esc`  
+
+- copy line or multiple lines: 
+
+`shift+v` (hit down or up for multi line) then `y` then `p` or `P` then `esc`  
 
 
 ## Visual block
 
-- highlight 1st or more characters: `ctrl+v` (hit up/down if multiple or right) `y` or `x` (etc)
-- edit before start of multiple lines: `ctrl+v` then `shift+i` then `<make edit> (example 4 spaces)` then `esc`
+- highlight 1st or more characters: 
+
+`ctrl+v` (hit up/down if multiple or right) `y` or `x` (etc)
+
+- edit before start of multiple lines:
+
+ `ctrl+v` then `shift+i` then `<make edit> (example 4 spaces)` then `esc`
 
 
 ## While in vi, edit other file
@@ -48,4 +58,3 @@
 
 - `:sp`
 - `:e <pathTofile/file>`
-
