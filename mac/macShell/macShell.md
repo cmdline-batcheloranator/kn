@@ -7,7 +7,7 @@
 
 - `brew install bash`
 
-## Edit `/etc/shells`
+### Edit `/etc/shells`
 
 - sudo vi `/etc/shells`
 
