@@ -13,6 +13,10 @@ alias ga='git add .'
 alias gs='git status'
 alias gc='git commit -m 'x''
 
+alias sd='shutdown -h  +0'
+alias sl='shutdown -s  +0'
+alias sr='shutdown -r  +0'
+
 alias sad=ssh-add\ ~/.ssh/batcheloranator
 
 alias cmdRepo='open -a safari https://github.com/cmdline-batcheloranator' 
