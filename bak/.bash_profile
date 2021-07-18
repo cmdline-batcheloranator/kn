@@ -9,8 +9,8 @@ rmT() { [ $1 ] && rm -f *.$1; }
 
 mapLst() { mapfile -t $1 < <($2); }
 
-seD() { [ $1 ] && sed s'#$1##'g; }
-sedR() { [ $1 && $2 ] && sed s'#$1#$2#g'; }
+seD() { [ $1 ] && sed s"$1##"g; }
+sedR() { [ $1 && $2 ] && sed s"#$1#$2#"g; }
 
 searchNet() { open -a safari https://${1}.com; }
 
