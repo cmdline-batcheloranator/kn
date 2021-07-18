@@ -49,7 +49,6 @@ alias sad=ssh-add\ ~/.ssh/batcheloranator
 alias dir='find . -type directory'
 alias dirEmpty='find . -type directory -size 0'
 
-alias irRepo='open -a safari https://github.com/iridium-lo' 
 alias cmdRepo='open -a safari https://github.com/cmdline-batcheloranator' 
 
 # vars
