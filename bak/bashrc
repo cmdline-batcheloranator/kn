@@ -1,8 +1,0 @@
-# System-wide .bashrc file for interactive bash(1) shells.
-[  -f ~/.bashrc  ] && . ~/.bashrc
-[  -f ~/.bash_profile  ] && . ~/.bash_profile
-
-# Make bash check its window size after a process completes
-shopt -s checkwinsize
-
-[ -r "/etc/bashrc_$TERM_PROGRAM" ] && . "/etc/bashrc_$TERM_PROGRAM"

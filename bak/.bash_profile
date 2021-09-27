@@ -2,17 +2,27 @@
 ga() { git add $@; }
 gc() { git commit  -m $1; } 
 
-search() { mdfind -name $1; } 
-longSearch() { find / -name $1 | grep $1; }
+vivrc() {  vi ~/.vimrc; }
+vibrc() {  vi ~/.bashrc; }
+viprc() {  vi ~/.bash_profile; }
+
+upvrc() { . ~/.vimrc; }
+upbrc() { . ~/.bashrc; }
+upprc() { . ~/.bash_profile; }
+
+longsearch() { find / -name $1 | grep $1; }
+searchapp() { mdfind -name $1 | grep Applications; } 
 
 rmT() { [ $1 ] && rm -f *.$1; }
 
 mapLst() { mapfile -t $1 < <($2); }
 
-seD() { [ $1 ] && sed s"$1##"g; }
-sedR() { [ $1 && $2 ] && sed s"#$1#$2#"g; }
+sedel() { [ $1 ] && sed s"$1##"g; }
+sedrep() { [ $1 && $2 ] && sed s"#$1#$2#"g; }
 
-searchNet() { open -a safari https://${1}.com; }
+newkey() { ssh-add -q -f ~/ssh/$1.pub -N ''; }
+
+urlsearch() { open -a safari https://${1}.com; }
 
 
 # exports
@@ -24,6 +34,7 @@ export PATH="/Applications/calibre.app/Contents/MacOS:$PATH"
 # aliases
 alias ll='ls -l'
 alias la='ls -ahl'
+
 alias du='du -h'
 alias df='df -hl'
 
@@ -31,8 +42,8 @@ alias wack='kill %'
 
 alias pyRun='python3 %'
 
-alias rmA='rm -rf *'
-alias rmSwp='rm -f .*.swp'
+alias rma='rm -rf *'
+alias rmswp='rm -f .*.swp'
 
 alias gp='git push'
 alias gg='git pull'
@@ -47,13 +58,12 @@ alias sadr=ssh-add\ ~/.ssh/iridium
 alias sad=ssh-add\ ~/.ssh/batcheloranator
 
 alias dir='find . -type directory'
-alias dirEmpty='find . -type directory -size 0'
+alias dirempty='find . -type directory -size 0'
 
-alias cmdRepo='open -a safari https://github.com/cmdline-batcheloranator' 
+alias irirepo='open -a safari https://github.com/iridium-lo' 
+alias cmdrepo='open -a safari https://github.com/cmdline-batcheloranator' 
 
 # vars
 iridium=~/git/iridium
 cmdline=~/git/cmdline
 chem=~/git/chemistry_stuff
-
-vscode='Visual Studio Code'
