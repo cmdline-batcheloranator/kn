@@ -1,6 +1,7 @@
 # Kill process
 
-- `killall <processName>`
+- `ps -ax | grep -i <processName> `
+- `killall <processName> `
 
 # Example
 
